@@ -632,7 +632,7 @@ pace: false
 pace_theme: pace-theme-minimal
 
 # Canvas-nest
-canvas_nest: tree
+canvas_nest: true
 
 # three_waves
 three_waves: false

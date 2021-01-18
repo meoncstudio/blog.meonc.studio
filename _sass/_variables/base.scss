@@ -10,7 +10,7 @@
 
 $whitesmoke   : #f5f5f5;
 $gainsboro    : #eee;
-$gray-lighter : #ddd;
+$grey-lighter : #ddd;
 $grey-light   : #ccc;
 $grey         : #bbb;
 $grey-dark    : #999;
@@ -31,11 +31,11 @@ $orange       : #fc6423;
 // --------------------------------------------------
 
 // Global text color on <body>
-$text-color                   : $black-light;
+$text-color                   : $grey;
 
 // Global link color.
-$link-color                   : $black-light;
-$link-hover-color             : $black-deep;
+$link-color                   : $grey-lighter;
+$link-hover-color             : $grey-light;
 $link-decoration-color        : $grey-light;
 $link-decoration-hover-color  : $black-deep;
 
@@ -43,7 +43,7 @@ $link-decoration-hover-color  : $black-deep;
 $border-color                 : $grey-light;
 
 // Background color for <body>
-$body-bg-color                : white;
+$body-bg-color                : #232323;
 
 // Selection
 $selection-bg                 : $blue-deep;
@@ -126,14 +126,14 @@ $zindex-5       : 1050;
 // Table
 // --------------------------------------------------
 $table-width                    : 100%;
-$table-border-color             : $gray-lighter;
+$table-border-color             : $grey-lighter;
 $table-font-size                : 14px;
 $table-content-alignment        : left;
 $table-content-vertical         : middle;
 $table-th-font-weight           : 700;
 $table-cell-padding             : 8px;
 $table-cell-border-right-color  : $gainsboro;
-$table-cell-border-bottom-color : $gray-lighter;
+$table-cell-border-bottom-color : $grey-lighter;
 $table-row-odd-bg-color         : #f9f9f9;
 $table-row-hover-bg-color       : $whitesmoke;
 
@@ -156,14 +156,14 @@ $code-background                : $gainsboro;
 $btn-font-weight                : normal;
 
 $btn-default-radius             : 0;
-$btn-default-bg                 : $black-deep;
+$btn-default-bg                 : black;
 $btn-default-color              : white;
 $btn-default-font-size          : 14px;
 $btn-default-border-width       : 2px;
-$btn-default-border-color       : $black-deep;
+$btn-default-border-color       : black;
 $btn-default-hover-bg           : white;
-$btn-default-hover-color        : $black-deep;
-$btn-default-hover-border-color : $black-deep;
+$btn-default-hover-color        : black;
+$btn-default-hover-border-color : black;
 
 
 
@@ -178,7 +178,7 @@ $pagination-link-border         : $gainsboro;
 
 $pagination-link-hover-bg       : transparent;
 $pagination-link-hover-color    : $link-color;
-$pagination-link-hover-border   : $black-deep;
+$pagination-link-hover-border   : black;
 
 $pagination-active-bg           : $grey-light;
 $pagination-active-color        : white;
@@ -226,9 +226,9 @@ $brand-bg                       : $black-deep;
 $logo-font-size                 : 20px;
 $logo-font-size                 : if(type-of(jekyll-config('font.logo.size')) == 'number', jekyll-config('font.logo.size') + px, $logo-font-size);
 
-$site-subtitle-color            : $grey-dark;
+$site-subtitle-color            : $grey-light;
 $subtitle-font-size             : 13px;
-$subtitle-color                 : $grey-dark;
+$subtitle-color                 : $grey-light;
 
 // Menu
 $menu-link-border               : transparent;
@@ -258,7 +258,7 @@ $posts-collapse-left-mobile     : 5px;
 
 $read-more-color                : white;
 $read-more-font-size            : 14px;
-$read-more-bg-color             : $black-deep;
+$read-more-bg-color             : black;
 $read-more-border-radius        : 0;
 
 

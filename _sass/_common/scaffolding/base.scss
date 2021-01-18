@@ -70,7 +70,7 @@ hr {
   margin: 40px 0;
   height: 3px;
   border: none;
-  background-color: $gray-lighter;
+  background-color: $grey-lighter;
   background-image: repeating-linear-gradient(
     -45deg,
     white,
@@ -83,7 +83,7 @@ hr {
 blockquote {
   padding: 0 15px;
   color: $grey-dim;
-  border-left: 4px solid $gray-lighter;
+  border-left: 4px solid $grey-lighter;
 
   cite::before {
     content: "-";

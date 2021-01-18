@@ -31,12 +31,12 @@ $orange       : #fc6423;
 // --------------------------------------------------
 
 // Global text color on <body>
-$text-color                   : $grey;
+$text-color                   : $grey-light;
 
 // Global link color.
-$link-color                   : $grey-lighter;
-$link-hover-color             : $grey-light;
-$link-decoration-color        : $grey-light;
+$link-color                   : $whitesmoke;
+$link-hover-color             : $grey-lighter;
+$link-decoration-color        : $grey-lighter;
 $link-decoration-hover-color  : $black-deep;
 
 // Global border color.
@@ -86,6 +86,7 @@ $font-family-icons        : 'FontAwesome';
 $font-weight-lighter      : 200;
 $font-weight-light        : 300;
 $font-weight-normal       : 400;
+$font-weight-medium       : 500;
 $font-weight-bold         : 600;
 $font-weight-bolder       : 700;
 
@@ -238,7 +239,7 @@ $menu-link-hover-border         : $black-deep;
 
 // Posts Expand
 // --------------------------------------------------
-$posts-expand-title-font-weight : $font-weight-normal;
+$posts-expand-title-font-weight : $font-weight-bold;
 $post-copyright : (
   margin: 2em 0 0,
   padding: .5em 1em,

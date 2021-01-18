@@ -1,6 +1,7 @@
 ---
 title: Hello Meonc
 description: This is my first Post
+permalink: /hello
 ---
 
 Hello World

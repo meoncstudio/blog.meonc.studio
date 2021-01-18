@@ -146,7 +146,7 @@ $code-font-family               : $font-family-monospace;
 $code-font-size                 : 13px;
 $code-font-size                 : if(type-of(jekyll-config('font.codes.size')) == 'number', jekyll-config('font.codes.size') + px, $code-font-size);
 $code-border-radius             : 3px;
-$code-foreground                : $whitesmoke;
+$code-foreground                : $grey-lighter;
 $code-background                : $black-dim;
 
 

@@ -146,8 +146,8 @@ $code-font-family               : $font-family-monospace;
 $code-font-size                 : 13px;
 $code-font-size                 : if(type-of(jekyll-config('font.codes.size')) == 'number', jekyll-config('font.codes.size') + px, $code-font-size);
 $code-border-radius             : 3px;
-$code-foreground                : $black-light;
-$code-background                : $gainsboro;
+$code-foreground                : $whitesmoke;
+$code-background                : $black-dim;
 
 
 

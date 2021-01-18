@@ -76,7 +76,7 @@ $font-family-headings     : if(get_font_family('headings'), (get_font_family('he
 $font-family-posts        : $font-family-base;
 $font-family-posts        : if(get_font_family('posts'), (get_font_family('posts'), $font-family-base), $font-family-posts);
 
-$font-family-monospace    : consolas, Menlo, $font-family-chinese, monospace;
+$font-family-monospace    : "Cascadia Code", consolas, Menlo, $font-family-chinese, monospace;
 $font-family-monospace    : if(get_font_family('codes'), (get_font_family('codes'), consolas, Menlo, $font-family-chinese, monospace), $font-family-monospace);
 
 $font-family-icons        : 'FontAwesome';
@@ -135,7 +135,7 @@ $table-th-font-weight           : 700;
 $table-cell-padding             : 8px;
 $table-cell-border-right-color  : $gainsboro;
 $table-cell-border-bottom-color : $grey-lighter;
-$table-row-odd-bg-color         : #f9f9f9;
+$table-row-odd-bg-color         : inherit;
 $table-row-hover-bg-color       : $whitesmoke;
 
 

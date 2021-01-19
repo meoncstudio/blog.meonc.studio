@@ -1,3 +1,9 @@
 // Custom styles.
 @import "cascadia";
 @import "gist-dark";
+
+.post-button {
+  .btn {
+    padding: 6px 20px;
+  }
+}

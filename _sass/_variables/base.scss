@@ -10,7 +10,7 @@
 
 $whitesmoke   : #f5f5f5;
 $gainsboro    : #eee;
-$grey-lighter : #ddd;
+$gray-lighter : #ddd;
 $grey-light   : #ccc;
 $grey         : #bbb;
 $grey-dark    : #999;
@@ -31,19 +31,19 @@ $orange       : #fc6423;
 // --------------------------------------------------
 
 // Global text color on <body>
-$text-color                   : $grey-light;
+$text-color                   : $black-light;
 
 // Global link color.
-$link-color                   : $whitesmoke;
-$link-hover-color             : $grey-lighter;
-$link-decoration-color        : $grey-lighter;
+$link-color                   : $black-light;
+$link-hover-color             : $black-deep;
+$link-decoration-color        : $grey-light;
 $link-decoration-hover-color  : $black-deep;
 
 // Global border color.
 $border-color                 : $grey-light;
 
 // Background color for <body>
-$body-bg-color                : #232323;
+$body-bg-color                : white;
 
 // Selection
 $selection-bg                 : $blue-deep;
@@ -76,7 +76,7 @@ $font-family-headings     : if(get_font_family('headings'), (get_font_family('he
 $font-family-posts        : $font-family-base;
 $font-family-posts        : if(get_font_family('posts'), (get_font_family('posts'), $font-family-base), $font-family-posts);
 
-$font-family-monospace    : consolas, Menlo, $font-family-chinese, monospace;;
+$font-family-monospace    : consolas, Menlo, $font-family-chinese, monospace;
 $font-family-monospace    : if(get_font_family('codes'), (get_font_family('codes'), consolas, Menlo, $font-family-chinese, monospace), $font-family-monospace);
 
 $font-family-icons        : 'FontAwesome';
@@ -126,15 +126,15 @@ $zindex-5       : 1050;
 // Table
 // --------------------------------------------------
 $table-width                    : 100%;
-$table-border-color             : $grey-lighter;
+$table-border-color             : $gray-lighter;
 $table-font-size                : 14px;
 $table-content-alignment        : left;
 $table-content-vertical         : middle;
 $table-th-font-weight           : 700;
 $table-cell-padding             : 8px;
 $table-cell-border-right-color  : $gainsboro;
-$table-cell-border-bottom-color : $grey-lighter;
-$table-row-odd-bg-color         : inherit;
+$table-cell-border-bottom-color : $gray-lighter;
+$table-row-odd-bg-color         : #f9f9f9;
 $table-row-hover-bg-color       : $whitesmoke;
 
 
@@ -145,8 +145,8 @@ $code-font-family               : $font-family-monospace;
 $code-font-size                 : 13px;
 $code-font-size                 : if(type-of(jekyll-config('font.codes.size')) == 'number', jekyll-config('font.codes.size') + px, $code-font-size);
 $code-border-radius             : 3px;
-$code-foreground                : $grey-lighter;
-$code-background                : $black-dim;
+$code-foreground                : $black-light;
+$code-background                : $gainsboro;
 
 
 
@@ -156,14 +156,14 @@ $code-background                : $black-dim;
 $btn-font-weight                : normal;
 
 $btn-default-radius             : 0;
-$btn-default-bg                 : black;
+$btn-default-bg                 : $black-deep;
 $btn-default-color              : white;
 $btn-default-font-size          : 14px;
 $btn-default-border-width       : 2px;
-$btn-default-border-color       : black;
+$btn-default-border-color       : $black-deep;
 $btn-default-hover-bg           : white;
-$btn-default-hover-color        : black;
-$btn-default-hover-border-color : black;
+$btn-default-hover-color        : $black-deep;
+$btn-default-hover-border-color : $black-deep;
 
 
 
@@ -178,7 +178,7 @@ $pagination-link-border         : $gainsboro;
 
 $pagination-link-hover-bg       : transparent;
 $pagination-link-hover-color    : $link-color;
-$pagination-link-hover-border   : black;
+$pagination-link-hover-border   : $black-deep;
 
 $pagination-active-bg           : $grey-light;
 $pagination-active-color        : white;
@@ -226,9 +226,9 @@ $brand-bg                       : $black-deep;
 $logo-font-size                 : 20px;
 $logo-font-size                 : if(type-of(jekyll-config('font.logo.size')) == 'number', jekyll-config('font.logo.size') + px, $logo-font-size);
 
-$site-subtitle-color            : $grey-light;
+$site-subtitle-color            : $grey-dark;
 $subtitle-font-size             : 13px;
-$subtitle-color                 : $grey-light;
+$subtitle-color                 : $grey-dark;
 
 // Menu
 $menu-link-border               : transparent;
@@ -238,7 +238,7 @@ $menu-link-hover-border         : $black-deep;
 
 // Posts Expand
 // --------------------------------------------------
-$posts-expand-title-font-weight : $font-weight-bold;
+$posts-expand-title-font-weight : $font-weight-normal;
 $post-copyright : (
   margin: 2em 0 0,
   padding: .5em 1em,
@@ -258,7 +258,7 @@ $posts-collapse-left-mobile     : 5px;
 
 $read-more-color                : white;
 $read-more-font-size            : 14px;
-$read-more-bg-color             : black;
+$read-more-bg-color             : $black-deep;
 $read-more-border-radius        : 0;
 
 

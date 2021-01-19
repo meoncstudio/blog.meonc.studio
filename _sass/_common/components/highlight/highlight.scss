@@ -38,7 +38,7 @@ pre {
 
 .highlight {
   @extend %code-block;
-  border-radius: 0px;
+  border-radius: 1px;
 
   pre {
     border: none;

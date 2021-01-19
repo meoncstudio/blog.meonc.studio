@@ -57,6 +57,20 @@
         {% endunless %}
 
         <div class="post-meta">
+          <span class="post-author">
+            {% if post.author %}
+            <span class="post-meta-item-icon">
+              <i class="fa fa-user"></i>
+            </span>
+            {% if site.post_meta.item_text %}
+            <span class="post-meta-item-text">{{ __.post.copyright.author }}: </span>
+            {% endif %}
+            <time title="{{ __.post.copyright.author }}">
+              {{ post.author }}
+            </time>
+            {% endif %}
+          </span>
+
           <span class="post-time">
             {% if site.post_meta.created_at %}
               <span class="post-meta-item-icon">
